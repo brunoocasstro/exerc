@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .corpo {width: 350px;
+                margin: 2px;
+                border: 2px solid #000;
+                padding: 20px;
+                }
+    </style>
+</head>
+<body>
+    <div class="corpo">
+    <form>
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name"><br>
+
+        <label for="dtnasc">Data de nascimento:</label>
+        <input type="date" id="dtnasc" name="dtnasc"><br>
+
+        <label for="sexo">Sexo:</label>
+        <input type="radio" id="sexo" name="sexo" value="Masc">
+        <label for="Masc">Masc</label>
+        <input type="radio" id="sexo" name="sexo" value="Fem">
+        <label for="Fem">Fem</label>
+        <input type="radio" id="sexo" name="sexo" value="prefninformar">
+        <label for="prefninformar">Prefiro não informar</label><br>
+
+        Endereço:<br>
+        <label for="Logradouro">Logradouro:</label>
+        <input type="text" id="Logradouro" name="Logradouro"><br>
+        <label for="bairro">bairro:</label>
+        <input type="text" id="bairro" name="bairro"><br>
+        <label for="cidade">Cidade:</label>
+        <input type="text" id="cidade" name="cidade"><br>    
+        
+        <label for="uf">UF:</label>
+        <select id="uf" name="uf">
+        <option value="DF">DF</option>
+        <option value="GO">GO</option>
+        <option value="SP">SP</option>
+        <option value="RJ">RJ</option>
+        </select><br>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email"><br>
+        <input type="reset" value="Limpar">
+        <input type="submit" value="Enviar">
+        
+    </form>
+    </div>
+</body>
+</html>
